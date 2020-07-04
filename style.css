@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #13221f;
+    background: #13221f; 
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
@@ -17,15 +17,6 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0;
-}
-.theme-1 {
-  color: #ff1
-}
-.theme-2 {
-  color: #1ff
-}
-.theme-3 {
-  color: #f1f
 }
 
 .container {
@@ -37,29 +28,6 @@ body {
     margin: auto;
     position: relative;
     transform: scale(1);
-}
-.top-right {
-  display: flex;
-
-  position: absolute;
-  align-items: right;
-  justify-content: center;
-  height: 30px;
-  width: auto ;
-  top: 8px;
-  right : 0px;
-}
-.circle-container {
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-
-  height: 30px;
-  width: 30px;
-  margin-right: 2px;
-
-
 }
 
 .gradient-circle {
