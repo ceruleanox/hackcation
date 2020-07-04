@@ -133,13 +133,13 @@ body {
     }
 
     to {
-        transform: scale(1.35);
+        transform: scale(1.2);
     }
 }
 
 @keyframes shrink {
     from {
-        transform:scale(1.35);
+        transform:scale(1.2);
     }
 
     to {
