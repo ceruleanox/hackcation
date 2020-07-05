@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="wavestyle.css">
         <title>Relaxation - CSS Style</title>
@@ -15,7 +15,7 @@
         <!-- The video -->
 
         <div class="fullscreen-video-wrap">
-            <video src="darkSkies.mp4" autoplay="true" loop="true">
+            <video id="video" src="darkSkies.mp4" autoplay="true" loop="true">
             </video>
         </div>
 
@@ -26,7 +26,7 @@
         <div class="container">
 
             <div class="circle"></div>
-            
+
             <p id="text"></p>
 
             <div class="pointer-container">
@@ -36,15 +36,21 @@
             <div class="gradient-circle"></div>
 
         </div>
+        <div class="menu">
+          <div class="label">Themes</div>
+          <div class="spacer"></div>
+          <div id="theme-1-btn" class="item"><span>Theme 1</span></div>
+          <div id="theme-2-btn" class="item"><span>Theme 2</span></div>
+          <div id="theme-3-btn" class="item"><span>Theme 3</span></div>
+        </div>
+        <script src="script.js"></script>
 
-        <script src="script.js"></script>   
-        
     </header>
 
-    <audio controls autoplay volume="0.03" loop style="display:none"> 
+    <audio controls autoplay volume="0.03" loop style="display:none">
         <source src="CosmowaveUshio.mp3" type="audio/mp3" preload="auto">
         Your browser does not support the audio element.
-    </audio>    
+    </audio>
     <!--
         Music: Ushio by Cosmowave
         Source: https://soundcloud.com/cosmowave/ushio
