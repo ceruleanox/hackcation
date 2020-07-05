@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="videostyle.css">
+        <title>Moment to Moment - Cultivating Mindfulness</title>
+    </head>
+    <body>
+
+        <header class="v-header bgcontainer">
+
+        <!-- quote container-->
+
+
+        <div id="quoteDisplay">
+            <!-- Quotes will display here -->
+        </div>
+        <p></p>
+        <div id="buttonDisplay">
+          <center><button onclick="newQuote()" style=" display:inline-block;
+             padding:0.5em 3em;
+             border:0.16em solid #FFFFFF;
+             margin:0 0.3em 0.3em 0;
+             box-sizing: border-box;
+             text-decoration:none;
+             text-transform:uppercase;
+             font-family:'Roboto',sans-serif;
+             font-weight:400;
+             color:#FFFFFF;
+             text-align:center;
+             transition: all 0.15s;">New Quote</button></center>
+        </div>
+          <script src="quotes.js"></script>
+
+        <!-- The video -->
+
+        <div class="fullscreen-video-wrap">
+            <video id="video" src="darkSkies.mp4" autoplay="true" loop="true">
+            </video>
+        </div>
+
+
+
+        <div class="gmenu">
+        <div class="label"><a href="gratitude.html">Gratitude</a></div>
+        </div>
+        <div class="qmenu">    
+        <div class="label"><a href="quotes.html">Quotes</a></div>
+        </div>
+        <div class="bmenu">    
+            <div class="label"><a href="index.html">Breathe</a></div>
+            </div>
+
+        <div class="menu">
+          <div class="label">Themes</div>
+          <div class="spacer"></div>
+          <div id="water-btn" class="item"><span>Lapping Water</span></div>
+          <div id="aurora-btn" class="item"><span>Aurora Borealis</span></div>
+          <div id="outerspace-btn" class="item"><span>Outer Space</span></div>
+<!--          <div id="quotes-btn" class="item"><span>Quotes</span></div>
+-->
+        </div>
+        <script src="quotes.js"></script>
+
+        <script src="menu.js"></script>
+
+    </header>
+
+    <audio controls autoplay volume="0.03" loop style="display:none">
+        <source src="CosmowaveUshio.mp3" type="audio/mp3" preload="auto">
+        Your browser does not support the audio element.
+    </audio>
+    <!--
+        Music: Ushio by Cosmowave
+        Source: https://soundcloud.com/cosmowave/ushio
+        License: http://creativecommons.org/licenses/by/3.0/
+        Get music free for a link from https://starfrosch.com
+    -->
+    </body>
+</html>
